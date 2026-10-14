@@ -575,7 +575,7 @@ current connector does not expose repository-admin rename actions.
 After that rename, existing local clones can be repointed with:
 
 ```bash
-git remote set-url origin https://github.com/SpidermanTotro/rabbit-code.git
+git remote set-url origin https://github.com/HenricHuntsman/rabbit-foundry.git
 ```
 
 The `rabbit_foundry` Python namespace remains temporarily for import
