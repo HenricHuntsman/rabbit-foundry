@@ -6,6 +6,19 @@ It is being built as an alternative to depending on paywalled coding-agent platf
 
 The existing `rabbit_foundry` Python package remains the model-training and research backend while the new Rabbit Code agent runtime is built on top.
 
+## Quick start
+
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -e ".[dev]"      # add ",training" for torch-based backend/tests
+rabbit doctor
+```
+
+See [docs/README.md](docs/README.md) for the docs index, [docs/FIRST_BOOT.md](docs/FIRST_BOOT.md),
+the [CLI reference](docs/CLI.md) and [troubleshooting](docs/TROUBLESHOOTING.md).
+The distribution is `rabbit-code`; the Python import name is `rabbit_foundry`.
+Licensed under MIT (see [LICENSE](LICENSE)); see also [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Vision
 
 ```text

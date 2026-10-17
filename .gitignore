@@ -9,3 +9,7 @@ out/
 *.pth
 *.gguf
 .rabbit-code/
+.env
+*.safetensors
+*.ckpt
+*.bin

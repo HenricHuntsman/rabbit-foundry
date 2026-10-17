@@ -6,6 +6,13 @@ build-backend = "setuptools.build_meta"
 name = "rabbit-code"
 version = "0.1.0"
 description = "Local-first coding agent and owned-model research platform"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Henric Huntsman" }]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+]
 requires-python = ">=3.11"
 dependencies = []
 
@@ -16,6 +23,14 @@ rabbit = "rabbit_foundry.helper_cli:main"
 [project.optional-dependencies]
 dev = ["pytest>=8"]
 training = ["torch>=2.4"]
+
+[project.urls]
+Homepage = "https://github.com/HenricHuntsman/rabbit-foundry"
+Issues = "https://github.com/HenricHuntsman/rabbit-foundry/issues"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
 
 [tool.setuptools.packages.find]
 where = ["src"]
