@@ -13,7 +13,9 @@
 
 ## `rabbit-code`
 
-Runtime entry point (`rabbit_foundry.rabbit_code:main`). Run
-`rabbit-code --help` for the available subcommands.
+Runtime entry point (`rabbit_foundry.rabbit_code:main`). Optional one-shot
+commands include `capabilities`, `read` and `agent`. Key flags: `--workspace`,
+`--provider`, `--base-url`, `--model`, `--allow-network`, `--allow-write`,
+`--allow-exec`, `--ui`. Run `rabbit-code --help` for the full list.
 
 Use `rabbit <command> --help` for options of each command.
