@@ -572,10 +572,11 @@ The package distribution is already named `rabbit-code`. The GitHub repository
 slug still needs to be renamed through GitHub repository settings because the
 current connector does not expose repository-admin rename actions.
 
-After that rename, existing local clones can be repointed with:
+After the repository has actually been renamed to `rabbit-code`, existing local
+clones can be repointed with the new URL (keep the current remote until then):
 
 ```bash
-git remote set-url origin https://github.com/HenricHuntsman/rabbit-foundry.git
+git remote set-url origin https://github.com/HenricHuntsman/rabbit-code.git
 ```
 
 The `rabbit_foundry` Python namespace remains temporarily for import
