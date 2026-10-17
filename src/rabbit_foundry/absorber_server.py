@@ -187,7 +187,7 @@ def main():
 
     print(f"Rabbit Absorber: http://{args.host}:{args.port}")
     print(f"Upstream: {UPSTREAM} model={UPSTREAM_MODEL}")
-    print(f"Streaming: enabled")
+    print("Streaming: enabled")
     ThreadingHTTPServer((args.host, args.port), Handler).serve_forever()
 
 

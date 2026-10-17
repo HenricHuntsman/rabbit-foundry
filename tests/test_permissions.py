@@ -2,7 +2,6 @@ import pytest
 
 from rabbit_foundry.permissions import (
     ApprovalRequired,
-    Decision,
     PermissionDenied,
     PermissionPolicy,
 )

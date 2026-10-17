@@ -5,7 +5,6 @@ from dataclasses import asdict, dataclass
 import json
 from pathlib import Path
 
-import torch
 
 from .model import ModelConfig
 from .train import device_from, manifest_episodes, train_one

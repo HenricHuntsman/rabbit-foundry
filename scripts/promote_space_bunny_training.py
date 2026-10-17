@@ -1,5 +1,6 @@
 from __future__ import annotations
-import argparse, json
+import argparse
+import json
 from rabbit_foundry.space_bunny_promote import promote_verified_repairs
 def main():
     p=argparse.ArgumentParser()
@@ -9,4 +10,5 @@ def main():
     p.add_argument("--min-quality", type=float, default=0.60)
     a=p.parse_args()
     print(json.dumps(promote_verified_repairs(a.challenges,a.responses,a.out,a.min_quality), indent=2))
-if __name__ == "__main__": main()
+if __name__ == "__main__":
+    main()

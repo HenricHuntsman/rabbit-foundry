@@ -7,7 +7,6 @@ the local browser UI from this checkout; the terminal CLI is unchanged.
 from __future__ import annotations
 
 import argparse
-import os
 import shlex
 from pathlib import Path
 

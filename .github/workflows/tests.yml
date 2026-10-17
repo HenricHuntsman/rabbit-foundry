@@ -28,7 +28,7 @@ jobs:
       - run: twine check dist/*
 
   lint:
-    name: Ruff (syntax and undefined names)
+    name: Ruff
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:

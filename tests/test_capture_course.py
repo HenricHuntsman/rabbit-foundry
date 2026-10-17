@@ -1,6 +1,5 @@
 import json
 
-import pytest
 
 from rabbit_foundry.bunny_lineage import ALPHA_HOLDOUT_IDS
 from rabbit_foundry.capture_course import capture_course

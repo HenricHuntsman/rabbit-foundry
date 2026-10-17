@@ -14,7 +14,6 @@ import urllib.parse
 import webbrowser
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from importlib import resources
-from pathlib import Path
 
 from .agent_loop import AgentLoop
 from .permissions import Decision
