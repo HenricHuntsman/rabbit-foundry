@@ -9,3 +9,4 @@
 - [Space Bunny external agent research](SPACE_BUNNY_EXTERNAL_AGENT_RESEARCH.md)
 - [CLI reference](CLI.md)
 - [Troubleshooting](TROUBLESHOOTING.md)
+- [Config reference](CONFIGS.md)

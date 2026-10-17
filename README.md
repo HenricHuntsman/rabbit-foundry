@@ -1,5 +1,8 @@
 # Rabbit Code 🐇💻
 
+[![Tests](https://github.com/HenricHuntsman/rabbit-foundry/actions/workflows/tests.yml/badge.svg)](https://github.com/HenricHuntsman/rabbit-foundry/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 **Rabbit Code** is a local-first, open coding-agent platform built around your own models, your own tools, and your own machine.
 
 It is being built as an alternative to depending on paywalled coding-agent platforms. Rabbit Code itself has no subscription gate. Local models can run through Rabbit-native checkpoints, Ollama, llama.cpp, or any compatible local endpoint. External providers can remain optional adapters when the user deliberately chooses them.
