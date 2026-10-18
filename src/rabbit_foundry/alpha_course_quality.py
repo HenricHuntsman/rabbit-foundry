@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from math import fsum
 
 
 @dataclass(frozen=True)
@@ -52,7 +53,7 @@ def score_alpha_capture(row: dict) -> AlphaQuality:
         "tool": 0.15,
         "environment": 0.10,
     }
-    score = sum(weights[s] for s in signals if s in weights)
+    score = fsum(weights[s] for s in signals if s in weights)
     return AlphaQuality(min(1.0, score), tuple(sorted(signals)))
 
 
